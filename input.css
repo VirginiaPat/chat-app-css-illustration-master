@@ -19,6 +19,7 @@
 }
 
 @theme {
+  /* breakpoints 512px and 848px  */
   --breakpoint-xs: 32rem;
   --breakpoint-sm: 53rem;
 

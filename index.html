@@ -22,16 +22,47 @@
     <title>Virginia | [Challenge Name Here]</title>
   </head>
   <body class="bg-body-bg">
-    <!-- PURPLE BACKGROUND CONTAINER -->
-    <div class="relative">
-      <!--TOP-LEFT PURPLE GRADIENT CONTAINER -->
-      <div
-        class="absolute w-127.5 h-254.5 bg-linear-to-bl from-light-magenta to-light-violet rounded-[16rem] -bottom-[135.73vw] right-[49.86vw] xs:-bottom-175 xs:-left-22.5"
-      ></div>
+    <!--TEXT AND BACKGROUND ILLUSTRATIONS CONTAINER -->
+    <div class="overflow-hidden">
+      <!-- ILLUSTRATIUONS BACKGROUND CONTAINER -->
+      <div class="relative -z-10">
+        <!--TOP-LEFT PURPLE GRADIENT CONTAINER -->
+        <div
+          class="absolute w-127.5 h-254.5 bg-linear-to-bl from-light-magenta to-light-violet rounded-[16rem] -bottom-[135.73vw] right-[49.86vw] xs:-bottom-175 xs:-left-22.5"
+        ></div>
 
-      <!--BOTTOM-RIGHT PURPLE GRADIENT CONTAINER (OPACITY 3%)-->
+        <!--BOTTOM-RIGHT PURPLE GRADIENT CONTAINER (OPACITY 3%)-->
+        <div
+          class="absolute w-127.5 h-254.5 bg-linear-to-tl from-light-magenta to-light-violet opacity-[7%] rounded-[16rem] top-[113.86vw] left-[50.13vw] xs:top-[108vw] xs:left-[52vw] md:top-[45vw] md:left-[60vw] lg:top-29.75 lg:left-[77.43vw] xl:-right-46.25"
+        ></div>
+      </div>
+
+      <!--TEXT CONTAINER -->
       <div
-        class="absolute w-127.5 h-254.5 bg-linear-to-tl from-light-magenta to-light-violet opacity-[9%] rounded-[16rem] top-[113.86vw] left-[50.13vw] xs:top-[110vw] xs:left-[52vw] md:top-[45vw] md:left-[60vw] lg:top-29.75 lg:left-[77.43vw] xl:-right-46.25"
+        class="flex flex-col gap-6 text-center pl-8 pr-8 pt-158.25 pb-16 xs:pl-10 xs:pr-10 xs:pt-190 md:pl-25 md:pr-25 lg:text-start lg:pl-170 lg:pr-6 lg:pt-77.25 lg:pb-60 xl:pl-183.75 xl:pb-77"
+      >
+        <h2
+          class="font-(family-name:--font-rubik) font-medium text-[2.5rem] text-(--color-very-dark-violet)"
+        >
+          Simple booking
+        </h2>
+        <p
+          class="font-(family-name:--font-rubik) font-normal text-base leading-[1.75] text-(--color-dark-greyish-violet)"
+        >
+          Stay in touch with our dog walkers through the chat
+          <br class="hidden xl:block" />
+          interface. This makes it easy to discuss arrangements and
+          <br class="hidden xl:block" />make bookings. Once the walk has been
+          completed you can <br class="hidden xl:block" />rate your walker and
+          book again all through the chat.
+        </p>
+      </div>
+    </div>
+
+    <!-- MOBILE CONTAINER -->
+    <div class="flex justify-center xs:block">
+      <div
+        class="w-61.75 h-126.25 bg-yellow-600 absolute top-16 xs:top-37 xs:left-[43.75vw] sm:left-90.75"
       ></div>
     </div>
 
@@ -56,23 +87,29 @@
 
   Type a message…
 
-  Simple booking
 
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
+  
    -->
 
-    <!-- 
-   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
-    <!-- <div class="attribution">
+    <div
+      class="flex justify-center font-(family-name:--font-rubik) font-normal text-base text-(--color-dark-violet)"
+    >
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+      <a
+        class="text-(--color-moderate-violet) hover:text-(--color-pale-violet) active:text-(--color-very-dark-violet) focus:outline-4 focus:outline-light-magenta"
+        aria-label="Frontend Mentor home page"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+      >
+        &nbsp;Frontend Mentor</a
+      >. Coded by
+      <a
+        class="text-(--color-moderate-violet) hover:text-(--color-pale-violet) active:text-(--color-very-dark-violet) focus:outline-4 focus:outline-light-magenta"
+        aria-label="Virginia Patrika's Frontend Mentor profile page"
+        href="https://www.frontendmentor.io/profile/VirginiaPat"
+        target="_blank"
+        >&nbsp;Virginia Patrika</a
+      >.
+    </div>
   </body>
 </html>
