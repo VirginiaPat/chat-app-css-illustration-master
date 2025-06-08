@@ -19,6 +19,16 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <title>Virginia | [Challenge Name Here]</title>
   </head>
   <body class="bg-body-bg">
@@ -61,38 +71,207 @@
 
     <!-- MOBILE CONTAINER -->
     <div class="flex justify-center xs:block">
+      <!-- white background container -->
       <div
-        class="w-61.75 h-126.25 bg-yellow-600 absolute top-16 xs:top-37 xs:left-[43.75vw] sm:left-90.75"
-      ></div>
+        class="w-61.75 h-126.25 rounded-[30px] shadow-[0_30px_60px_-10px_rgba(62,39,83,0.2512)] bg-white absolute top-16 xs:top-37 xs:left-[43.75vw] sm:left-90.75 flex items-center justify-center"
+      >
+        <!-- grey background container -->
+        <div
+          class="w-57 h-120.75 rounded-[20px] bg-(--color-light-greyish-violet) outline-[rgba(62,39,83,0.05)] outline-1"
+        >
+          <!-- top gradient container -->
+          <div
+            class="w-57 h-16.5 rounded-t-[20px] rounded-b-md bg-linear-to-bl from-pink-gradient to-purple-gradient relative"
+          >
+            <!--Name of user container & arrow & dots  -->
+            <div class="flex justify-between pt-7.5 pl-3 pr-3">
+              <div class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#ffff"
+                  class="h-2.5"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+
+                <div class="flex gap-2 items-center">
+                  <img
+                    class="w-6 h-6 rounded-full outline-1 outline-white"
+                    src="images/avatar.jpg"
+                    alt=""
+                  />
+
+                  <div class="flex flex-col gap-0.5">
+                    <p
+                      class="font-(family-name:--font-rubik) font-medium text-[0.6875rem] text-white"
+                    >
+                      Samuel Green
+                    </p>
+                    <p
+                      class="font-(family-name:--font-rubik) font-normal text-[0.5rem] text-(--color-purple-text)"
+                    >
+                      Available to Walk
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#ffff"
+                  class="h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- white container on top of gradient -->
+          <div
+            class="absolute top-0 left-12.25 w-32.5 h-7.25 bg-white rounded-b-[14px]"
+          ></div>
+
+          <!-- 1st container :CONVERSATION -->
+          <div class="flex flex-col gap-2 mt-2.75 ml-2">
+            <div class="flex items-start w-32">
+              <p
+                class="font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-(--color-moderate-violet) bg-conversation pl-2 pr-2 pt-1.5 pb-1.5 rounded-t-[10px] rounded-br-[10px] rounded-bl-[4px]"
+              >
+                That sounds great. I&#39;d be happy with that.
+              </p>
+            </div>
+
+            <div class="flex items-start w-32">
+              <p
+                class="font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-(--color-moderate-violet) bg-conversation pl-2 pr-2 pt-1.5 pb-1.5 rounded-t-[10px] rounded-br-[10px] rounded-bl-[4px]"
+              >
+                Could you send over some pictures of your dog, please?
+              </p>
+            </div>
+          </div>
+
+          <!-- 2nd container :CONVERSATION -->
+          <div class="flex flex-col gap-2 items-end mt-4 mr-2">
+            <div class="flex gap-2 justify-between">
+              <img
+                class="w-10 h-10 rounded-[10px]"
+                src="images/dog-image-1.jpg"
+                alt=""
+              />
+              <img
+                class="w-10 h-10 rounded-[10px]"
+                src="images/dog-image-2.jpg"
+                alt=""
+              />
+              <img
+                class="w-10 h-10 rounded-[10px]"
+                src="images/dog-image-3.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="flex w-32 justify-end">
+              <p
+                class="shadow-[0_10px_5px_-5px_rgba(62,39,83,0.0453)] font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-(--color-dark-violet) bg-white pl-2 pr-2 pt-1.5 pb-1.5 rounded-t-[10px] rounded-bl-[10px] rounded-br-[4px]"
+              >
+                Here are a few pictures. She&#39;s a happy girl!
+              </p>
+            </div>
+
+            <div class="flex justify-end">
+              <p
+                class="shadow-[0_10px_5px_-5px_rgba(62,39,83,0.0453)] font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-(--color-dark-violet) bg-white pl-2 pr-2 pt-1.5 pb-1.5 rounded-t-[10px] rounded-bl-[10px] rounded-br-[4px]"
+              >
+                Can you make it?
+              </p>
+            </div>
+          </div>
+
+          <!-- 3nd container :CONVERSATION -->
+          <div class="flex flex-col gap-2 mt-4 ml-2 items-start">
+            <div class="flex items-start w-32">
+              <p
+                class="font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-(--color-moderate-violet) bg-conversation pl-2 pr-2 pt-1.5 pb-1.5 rounded-t-[10px] rounded-br-[10px] rounded-bl-[4px]"
+              >
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+            </div>
+
+            <div
+              class="flex justify-between items-center bg-linear-to-br from-pink-gradient to-purple-gradient w-40 h-8 rounded-t-[10px] rounded-br-[10px] rounded-bl-[4px]"
+            >
+              <div class="flex gap-2 items-center pl-2">
+                <div
+                  class="w-2.75 h-2.75 rounded-full outline-1 outline-(--color-circle)"
+                ></div>
+                <p
+                  class="font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-white"
+                >
+                  30 minute walk
+                </p>
+              </div>
+              <p
+                class="font-(family-name:--font-rubik) font-bold text-xs leading-[0.92] text-white pr-4"
+              >
+                &#36;29
+              </p>
+            </div>
+
+            <div
+              class="flex justify-between items-center bg-linear-to-br from-pink-gradient to-purple-gradient w-40 h-8 rounded-t-[10px] rounded-br-[10px] rounded-bl-[4px]"
+            >
+              <div class="flex gap-2 items-center pl-2">
+                <div
+                  class="w-2.75 h-2.75 rounded-full outline-1 outline-(--color-circle)"
+                ></div>
+                <p
+                  class="font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-white"
+                >
+                  1 hour walk
+                </p>
+              </div>
+              <p
+                class="font-(family-name:--font-rubik) font-bold text-xs leading-[0.92] text-white pr-4"
+              >
+                &#36;49
+              </p>
+            </div>
+          </div>
+
+          <!-- input -->
+          <div
+            class="flex items-center justify-between bg-white rounded-[17px] mt-4 ml-2 mr-2 h-8.5"
+          >
+            <p
+              class="font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-(--color-input-text) ml-5"
+            >
+              Type a message...
+            </p>
+
+            <div class="pr-1 flex items-center">
+              <ion-icon
+                class="h-6.25 w-6.25"
+                name="chevron-forward-circle"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Samuel Green
-  Available to Walk
-
-  That sounds great. I’d be happy with that.
-
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She’s a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-
-  
-   -->
-
     <div
-      class="flex justify-center font-(family-name:--font-rubik) font-normal text-base text-(--color-dark-violet)"
+      class="flex justify-center font-(family-name:--font-rubik) font-normal text-xs text-(--color-dark-violet)"
     >
       Challenge by
       <a

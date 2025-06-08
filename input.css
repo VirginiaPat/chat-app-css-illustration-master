@@ -36,6 +36,12 @@
   --color-very-light-magenta: #e570ff;
   --color-light-violet: #8838ff;
   --color-body-bg: #fafafa;
+  --color-pink-gradient: #e844ff;
+  --color-purple-gradient: #8739ff;
+  --color-purple-text: #d99eff;
+  --color-conversation: #eee5f4;
+  --color-circle: #e472ff;
+  --color-input-text: #c5c9cc;
 
   /* font-family */
   --font-rubik: "Rubik", "sans-serif";
