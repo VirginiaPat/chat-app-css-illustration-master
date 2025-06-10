@@ -45,4 +45,45 @@
 
   /* font-family */
   --font-rubik: "Rubik", "sans-serif";
+
+  /* animation */
+  --animate-fade-in-up: fadeInUp 0.6s ease-out forwards;
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    ,
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/*classe for animation delay */
+.delay-1000 {
+  animation-delay: 1s;
+}
+.delay-2500 {
+  animation-delay: 2.5s;
+}
+.delay-3000 {
+  animation-delay: 3s;
+}
+.delay-4500 {
+  animation-delay: 4.5s;
+}
+.delay-5000 {
+  animation-delay: 5s;
+}
+.delay-6000 {
+  animation-delay: 6s;
+}
+.delay-6500 {
+  animation-delay: 6.5s;
+}
+.delay-8000 {
+  animation-delay: 8s;
 }
