@@ -256,17 +256,20 @@
           <div
             class="flex items-center justify-between bg-white rounded-[17px] mt-4 ml-2 mr-2 h-8.5"
           >
-            <p
+            <textarea
               class="font-(family-name:--font-rubik) font-normal text-[0.5rem] leading-[1.375] text-(--color-input-text) ml-5"
-            >
-              Type a message...
-            </p>
+              placeholder="Type a message..."
+              rows="1"
+              aria-label="Chat message input"
+            ></textarea>
 
             <div class="pr-1 flex items-center">
-              <ion-icon
-                class="h-6.25 w-6.25"
-                name="chevron-forward-circle"
-              ></ion-icon>
+              <a class="flex justify-center" href="#">
+                <ion-icon
+                  class="h-6.25 w-6.25"
+                  name="chevron-forward-circle"
+                ></ion-icon>
+              </a>
             </div>
           </div>
         </div>
